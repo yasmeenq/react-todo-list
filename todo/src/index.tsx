@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Layout } from './components/Layout/Layout';
-
+import { Task } from './components/Task/Task';
+import { TaskList } from './components/TaskList/TaskList';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
     <App />
-    <Layout />
+    <TaskList />
   </React.StrictMode>
 );
 
